@@ -601,6 +601,7 @@ Runtime Enumeration 1 ; 0 is reserved for uninitialized #PB_Any
   #GADGET_Option_SelectCompiler
   #GADGET_Option_Optimizer
   #GADGET_Option_DPIAware
+  #GADGET_Option_DPIAwareMode
   CompilerIf #SpiderBasic
     #GADGET_Option_WindowTheme
     #GADGET_Option_SelectWindowTheme
@@ -2182,6 +2183,7 @@ Structure CompileTarget
   EnableAdmin.l
   EnableUser.l
   DPIAware.l
+  DPIAwareMode.l      ; 0 = System, 1 = Per-Monitor (DPIWINDOWAWARE), Windows only
   DllProtection.l
   SharedUCRT.l
   EnableOnError.l
