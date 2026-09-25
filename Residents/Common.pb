@@ -640,6 +640,9 @@ CompilerEndIf
 #PB_Editor_ReadOnly      = 1 << 0
 #PB_Editor_WordWrap      = 1 << 1
 #PB_Editor_TabNavigation = 1 << 2
+CompilerIf #PB_Compiler_OS <> #PB_OS_Web
+  #PB_Editor_Centered      = 1 << 3
+CompilerEndIf
 
 ; HyperLink flags
 ;

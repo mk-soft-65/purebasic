@@ -627,7 +627,7 @@ DataSection
   ;Data$ "SetGadgetAttribute3D,2,"    ; leave out because of the many different constants depending on the gadget type
   Data$ "SetGadgetColor,2,#PB_Gadget_FrontColor,#PB_Gadget_BackColor,#PB_Gadget_LineColor,#PB_Gadget_TitleFrontColor,#PB_Gadget_TitleBackColor,#PB_Gadget_GrayTextColor"
   Data$ "SetGadgetFont,1,#PB_Default"
-  Data$ "SetGadgetItemAttribute,3,#PB_Explorer_ColumnWidth,#PB_ListIcon_ColumnWidth"
+  Data$ "SetGadgetItemAttribute,3,#PB_Explorer_ColumnWidth,#PB_ListIcon_ColumnWidth,#PB_ListIcon_ColumnAlignment"
   Data$ "SetGadgetItemColor,3,#PB_Gadget_FrontColor,#PB_Gadget_BackColor"
   Data$ "SetGadgetItemText,2,#PB_WebView_HtmlCode,#PB_Web_HtmlCode"
   Data$ "SetJointAttribute,2,#PB_Joint_EnableSpring,#PB_Joint_Stiffness,#PB_Joint_Damping,#PB_Joint_Position,#PB_Joint_NoLimit,#PB_Joint_LowerLimit,#PB_PointJoint_Tau,#PB_PointJoint_Damping,#PB_ConeTwistJoint_SwingSpan,#PB_ConeTwistJoint_SwingSpan2,#PB_ConeTwistJoint_TwistSpan,#PB_HingeJoint_LowerLimit,#PB_HingeJoint_UpperLimit,#PB_SliderJoint_LowerLimit,#PB_SliderJoint_UpperLimit"
